@@ -22,6 +22,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem "figaro"
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'devise'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
