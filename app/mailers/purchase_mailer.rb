@@ -4,6 +4,6 @@ class PurchaseMailer < ActionMailer::Base
 
 	def purchase_receipt purchase
 		@purchase = purchase
-		mail to: purchase.email, bcc: "sales@blackdogis.com", subject: "Thanks for your purchase"
+		mail to: purchase.email, bcc: "web@blackdogis.com", subject: "Thanks for your purchase"
 	end
 end
